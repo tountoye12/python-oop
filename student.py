@@ -5,7 +5,7 @@ class Student:
         self.lap_top = self.LapTop()
 
     def show(self):
-        print(self.first_name)
+        print(self.first_name, self.last_name)
         self.lap_top.show()
 
     class LapTop:
